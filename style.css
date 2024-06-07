@@ -3,6 +3,7 @@
     --cinza-secundario:#C0C0C0;
     --botao-azul:#167BF7;
     --cor-de-fundo:#040814;
+    --cor:#ba0af0;
 }
 *{
     margin: 0;
@@ -28,4 +29,8 @@ body{
     padding: 1em;
     color: var(--branco-principal);
     display: flex;
+}
+.botao-secundario{
+    background-color: transparent;
+    border: 2px solid var(--cor);
 }
