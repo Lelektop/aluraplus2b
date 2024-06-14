@@ -4,6 +4,8 @@
     --botao-azul:#167BF7;
     --cor-de-fundo:#040814;
     --cor:#ba0af0;
+    --fonte-principal:'Montserrat';
+    --fonte-secundaria:'Oswald'
 }
 *{
     margin: 0;
@@ -12,6 +14,8 @@
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
 }
 .principal{
     background-image: url("./imagem/Background.png");
@@ -21,7 +25,7 @@ body{
 .container{
     height: 100vh;
     display: grid;
-    grid-template-columns: 50% 30%;
+    grid-template-columns: 40% 60%;
 }
 .container-botao{
     background-color: var(--botao-azul);
@@ -33,4 +37,12 @@ body{
 .botao-secundario{
     background-color: transparent;
     border: 2px solid var(--cor);
+}
+.container-aviso{
+    color: var(--cinza-secundario);
+    font-size: 12px;
+}
+.container-titulo{
+    font-size: 28px;
+    font-weight: 700;
 }
